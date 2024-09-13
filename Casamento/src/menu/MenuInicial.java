@@ -21,21 +21,29 @@ public class MenuInicial {
         menu += "3 - Registrar Usuario\n";
         menu += "4 - Entrar sem Logar";
         
-        String opcao = JOptionPane.showInputDialog(null, menu);
+        int opcao = 999;
         
-        switch (opcao) {
-            case "1": // Logar
-                break;
-            case "2": // Registrar Pessoa
-                break;
-            case "3": // Registrar Usuario
-                break;
-            case "4": // Entrar sem logar
-                break;
-            default:
-                JOptionPane.showMessageDialog(null, "Opção inválida! Tente Novamente!");
-                break;
-        }
+        do{
+            opcao = Integer.getInteger(JOptionPane.showInputDialog(null, menu));
+            switch (opcao) {
+             case 1: // Logar
+                 System.out.println("1");
+                 break;
+             case 2: // Registrar Pessoa
+                 break;
+             case 3: // Registrar Usuario
+                 break;
+             case 4: // Entrar sem logar
+                 break;
+             default:
+                 JOptionPane.showMessageDialog(null, "Opção inválida! Tente Novamente!");
+                 break;
+                
+        } 
+        }while(opcao != 0);
+        
+        
+        
     }
 }
 
