@@ -23,4 +23,4 @@ O objetivo principal deste software é auxiliar na organização e gestão de ca
 Para mais informações ou se tiver alguma dúvida, entre em contato com os desenvolvedores:
 
 - **Patrick Furquim**: [Email](patrickfurquim357@gmail.com)
-- **Victor Gomes**: [Email](mailto:email@dominio.com)
+- **Victor Gomes**: [Email](victoraugusto2519@gmail.com)
